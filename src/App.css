@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+:root {
+	--BG-COLOR-1: #141a1a;
+	--BG-COLOR: rgb(25, 31, 31);
+	--FF: "Open Sans";
+	--BLUE-TEXT: #0872BF;
+	--FF-1: "Roboto";
+	--BLUE-TEXT-LIGHT: #6abdf9;
+}

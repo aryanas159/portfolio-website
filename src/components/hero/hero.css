@@ -1,0 +1,179 @@
+.hero {
+	display: flex;
+	font-family: var(--FF);
+	background-color: var(--BG-COLOR);
+	min-height: 100vh;
+	align-items: center;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	padding-left: 60px;
+	align-items: center;
+}
+.content .salutation {
+	color: #fff;
+	font-size: 0.8rem;
+}
+.content h1 {
+	color: var(--BLUE-TEXT);
+	padding: 20px 0px;
+	font-weight: 400;
+	font-size: 2.4rem;
+}
+.content .description {
+	color: #fff;
+	font-size: 1.4rem;
+	font-weight: 300;
+}
+.content .about {
+	color: #fff;
+	font-size: 0.8rem;
+	font-weight: 400;
+	padding: 30px 0px;
+	max-width: 500px;
+}
+.content .connect {
+	padding: 10px 30px;
+	border: none;
+	border-radius: 10px;
+	font-size: 1rem;
+	background-color: var(--BLUE-TEXT);
+	color: #fff;
+	cursor: pointer;
+	transition: 0.2s;
+}
+.content .connect:hover {
+	transform: scale(1.1);
+}
+.image {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+.image .profile-img {
+	width: 280px;
+	border: 2px solid var(--BLUE-TEXT);
+	border-radius: 50%;
+	z-index: 10;
+}
+.image .polygons {
+	position: absolute;
+	top: -60px;
+}
+.image .polygons img {
+	height: 400px;
+	opacity: 0.6;
+}
+.socials {
+	display: flex;
+	align-items: center;
+	column-gap: 30px;
+	margin-top: 60px;
+	animation: bounce-in-top 1s ;
+}
+.social img {
+	width: 30px;
+}
+.social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	border-radius: 50%;
+	border: 1px solid gray;
+	transition: 0.5s;
+	box-shadow: 0px 0px 10px gray;
+	
+}
+.social:nth-child(3) {
+	background-color: hsla(0, 0%, 100%, 0.841);
+}
+.social:hover{
+	transform: translateY(-50%);
+	box-shadow: 0px 0px 10px var(--BLUE-TEXT-LIGHT);
+	border-color: var(--BLUE-TEXT-LIGHT);
+}
+@media screen and (max-width: 700px) {
+	.hero {
+		flex-direction: column;
+		padding-top: 50px;
+		row-gap: 60px;
+	}
+	.content {
+		padding-left: 0px;
+		flex: none;
+	}
+	.content .about {
+		max-width: 300px;
+	}
+	.image {
+		flex: none;
+	}
+	.image .profile-img {
+		width: 180px;
+	}
+	.image .polygons {
+		top: -100px;
+	}
+	.image .polygons img {
+		width: 400px;
+	}
+}
+
+@keyframes bounce-in-top {
+	0% {
+		-webkit-transform: translateY(-500px);
+		transform: translateY(-500px);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+		opacity: 0;
+	}
+	38% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+		opacity: 1;
+	}
+	55% {
+		-webkit-transform: translateY(-65px);
+		transform: translateY(-65px);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+	72% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+	}
+	81% {
+		-webkit-transform: translateY(-28px);
+		transform: translateY(-28px);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+	90% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+	}
+	95% {
+		-webkit-transform: translateY(-8px);
+		transform: translateY(-8px);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+	100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+	}
+}
+
+
