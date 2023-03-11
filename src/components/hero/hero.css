@@ -4,6 +4,7 @@
 	background-color: var(--BG-COLOR);
 	min-height: 100vh;
 	align-items: center;
+
 }
 .content {
 	display: flex;
@@ -130,6 +131,7 @@
 		flex-direction: column;
 		padding-top: 50px;
 		row-gap: 60px;
+		width: 100%;
 	}
 	.social:hover {
 		transform: none;
