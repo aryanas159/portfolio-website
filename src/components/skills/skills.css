@@ -180,7 +180,9 @@
 	.skills {
 		padding: 20px 0px;
 	}
-
+	.more_skill::after {
+		display: none;
+	}
 	.container .more_skills {
 		flex-wrap: wrap;
 		max-width: 250px;
