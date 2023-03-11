@@ -10,6 +10,7 @@ const Contact = () => {
 	const [submitStatus, setSubmitStatus] = React.useState(false);
 	console.log(form.current);
 	const sendEmail = (e) => {
+		setSubmitStatus(true)
 		e.preventDefault();
 		emailjs
 			.sendForm(
@@ -29,7 +30,7 @@ const Contact = () => {
 		setName("");
 		setEmail("");
 		setMessage("");
-		setSubmitStatus(true);
+		setTimeout(() => {setSubmitStatus(false)}, 5000);
 	};
 	return (
 		<div className="contact" id="contact">
