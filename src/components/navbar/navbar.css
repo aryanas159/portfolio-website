@@ -39,9 +39,6 @@
     transition: 0.2s;
     padding: 20px 20px;
 }
-.navbar .links .link:link {
-    color: var(--BLUE-TEXT);
-}
 .link:last-child {
     background-color: var(--BLUE-TEXT);
     height: 20px;
