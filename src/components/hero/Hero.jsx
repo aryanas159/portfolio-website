@@ -52,7 +52,10 @@ const Hero = () => {
 				</div>
 			</div>
 			<div className="image">
-				<img src={profile} alt="profile" className="profile-img" />
+				<div className="profile-img-div">
+					<div className="lines"></div>
+					<img src={profile} alt="profile" className="profile-img" />
+				</div>
 				<div className="polygons">
 					<img src={polygon} />
 				</div>
