@@ -22,8 +22,8 @@
 	padding: 20px 0px;
 	font-weight: 400;
 	font-size: 2.8rem;
-	-webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-	animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+	-webkit-animation: text-focus-in 2s 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+	animation: text-focus-in 2s 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 .content .description {
 	color: #fff;
@@ -57,8 +57,8 @@
 	position: relative;
 }
 .image .profile-img-div {
-	width: 291px;
-	height: 291px;
+	width: 295px;
+	height: 295px;
 	border-radius: 50%;
 	z-index: 10;
 	display: flex;
@@ -72,18 +72,17 @@
 }
 .profile-img-div .lines {
 	position: absolute;
-    background: linear-gradient(transparent, var(--BLUE-TEXT-LIGHT), var(--BLUE-TEXT-LIGHT), transparent);
-    height: 300px;
+    background: linear-gradient(transparent, rgb(237, 2, 237), var(--BLUE-TEXT-LIGHT), transparent);
+    height: 350px;
     width: 500px;
     top: 50%;
     right: 50%;
 	transform: translate(50%, -50%);
-	animation: rotate-lines 5s 3s linear infinite;
+	animation: rotate-lines 3s 3s linear infinite;
 }
 .image .profile-img {
 	width: 280px;
 	border: 2px solid var(--BLUE-TEXT);
-	/* box-shadow: 0px 0px 20px var(--BLUE-TEXT-LIGHT); */
 	border-radius: 50%;
 	z-index: 5;
 }
@@ -152,8 +151,8 @@
 		width: 190px;
 	}
 	.image .profile-img-div {
-		width: 185px;
-		height: 185px;
+		width: 188px;
+		height: 188px;
 	}
 	.image .profile-img {
 		width: 180px;
