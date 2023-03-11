@@ -129,7 +129,7 @@
 @media screen and (max-width: 700px) {
 	.hero {
 		flex-direction: column;
-		padding-top: 50px;
+		padding-top: 120px;
 		row-gap: 60px;
 		width: 100%;
 	}

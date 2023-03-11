@@ -6,12 +6,6 @@
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 }
-.App {
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	background-color: var(--BG-COLOR);
-}
 
 :root {
 	--BG-COLOR-1: #141a1a;
