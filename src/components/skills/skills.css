@@ -74,7 +74,8 @@
 	height: 380px;
 	width: 300px;
 	transition: 0.5s;
-	box-shadow: 0px 0px 20px rgba(8, 114, 191);
+	box-shadow: 0px 0px 30px red;
+	border-color: red;
 }
 .card:hover .image-div {
 	top: 20px;

@@ -113,17 +113,17 @@
 	align-items: center;
 	padding: 10px;
 	border-radius: 50%;
-	border: 1px solid gray;
+	border: 1px solid var(--BLUE-TEXT-LIGHT);
 	transition: 0.5s;
-	box-shadow: 0px 0px 10px gray;
+	box-shadow: 0px 0px 15px var(--BLUE-TEXT-LIGHT);
 }
 .social:nth-child(3) {
 	background-color: hsla(0, 0%, 100%, 0.841);
 }
 .social:hover {
 	transform: translateY(-50%);
-	box-shadow: 0px 0px 20px var(--BLUE-TEXT-LIGHT);
-	border-color: var(--BLUE-TEXT-LIGHT);
+	box-shadow: 0px 0px 30px #fff;
+	border-color: #fff;
 }
 @media screen and (max-width: 700px) {
 	.hero {
