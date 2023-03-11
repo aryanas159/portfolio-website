@@ -1,7 +1,8 @@
 @media screen and (max-width: 700px) {
     body, html {
-        background-color: var(--BG-COLOR);
         overflow-x: hidden;
-        
     }
+}
+body, html {
+    background-color: var(--BG-COLOR);
 }
