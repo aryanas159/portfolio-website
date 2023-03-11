@@ -89,10 +89,13 @@
 .image .polygons {
 	position: absolute;
 	top: -60px;
+	pointer-events: none;
+
 }
 .image .polygons img {
 	height: 400px;
 	opacity: 0.6;
+	pointer-events: none;
 }
 .socials {
 	display: flex;
@@ -127,6 +130,9 @@
 		flex-direction: column;
 		padding-top: 50px;
 		row-gap: 60px;
+	}
+	.social:hover {
+		transform: none;
 	}
 	.content {
 		padding-left: 0px;
