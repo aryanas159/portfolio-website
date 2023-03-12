@@ -164,18 +164,18 @@
 .more_skill:hover:nth-child(5):after {
 	content: "Github"
 }
-.more_skill:hover:nth-child(6):after {
+/* .more_skill:hover:nth-child(6):after {
 	content: "Node Package Modules"
-}
-.more_skill:hover:nth-child(7):after {
+} */
+.more_skill:hover:nth-child(6):after {
 	content: "Affinity Designer"
 }
-.more_skill:hover:nth-child(8):after {
+.more_skill:hover:nth-child(7):after {
 	content: "Canva"
 }
-.more_skill:hover:nth-child(9):after {
+/* .more_skill:hover:nth-child(9):after {
 	content: "Figma"
-}
+} */
 
 @media screen and (max-width: 700px) {
 	.skills {
