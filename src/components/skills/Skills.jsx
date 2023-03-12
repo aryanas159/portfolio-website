@@ -94,18 +94,18 @@ const Skills = () => {
 					<div className="more_skill">
 						<img src={github_logo} alt="github_logo" />
 					</div>
-					<div className="more_skill">
+					{/* <div className="more_skill">
 						<img src={npm_logo} alt="npm_logo" />
-					</div>
+					</div> */}
 					<div className="more_skill">
 						<img src={affinity_designer_logo} alt="affinity_designer_logo" />
 					</div>
 					<div className="more_skill">
 						<img src={canva_logo} alt="canva_logo" />
 					</div>
-					<div className="more_skill">
+					{/* <div className="more_skill">
 						<img src={figma_logo} alt="figma_logo" />
-					</div>
+					</div> */}
 				</div>
 				
 
