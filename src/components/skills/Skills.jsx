@@ -56,7 +56,7 @@ const Skills = () => {
 						</div>
 						<div className="description">
 							<p>
-								I am profecient in JavaScript. I have an advanced understanding
+								I am proficient in JavaScript. I have an advanced understanding
 								of fundamental concepts like variables, conditions, loops,
 								functions, arrays, objects, events, DOM manipulation, etc.
 							</p>
